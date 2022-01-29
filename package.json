@@ -1,0 +1,33 @@
+{
+  "name": "parbez",
+  "version": "1.0.0",
+  "description": "my first cli package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranbarbhuiya/parbez-cli.git"
+  },
+  "keywords": [
+    "parbez",
+    "cli-game",
+    "quiz"
+  ],
+  "author": "imranbarbhuiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imranbarbhuiya/parbez-cli/issues"
+  },
+  "homepage": "https://github.com/imranbarbhuiya/parbez-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  }
+}
